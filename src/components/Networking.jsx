@@ -23,18 +23,18 @@ export default function Networking() {
       <div className="max-w-6xl mx-auto">
         <SectionHeading title="Networking Foundation" />
 
-        <Reveal className="glass-card rounded-2xl p-4 sm:p-8 mb-12">
-          <div className="grid grid-cols-2 lg:flex lg:items-center lg:justify-between gap-y-6 lg:gap-2">
+        <Reveal className="glass-card rounded-2xl p-8 mb-12 overflow-x-auto">
+          <div className="flex items-center justify-between gap-2 min-w-[640px]">
             {topology.map(({ icon: Icon, label }, i) => (
-              <div key={label} className="flex items-center justify-center lg:justify-start gap-2">
-                <div className="flex flex-col items-center gap-2 text-center w-full lg:w-24">
+              <div key={label} className="flex items-center gap-2">
+                <div className="flex flex-col items-center gap-2 text-center w-24">
                   <span className="w-12 h-12 rounded-xl bg-accent-cyan/10 border border-accent-cyan/30 flex items-center justify-center">
                     <Icon className="w-5 h-5 text-accent-cyan" aria-hidden="true" />
                   </span>
                   <span className="text-xs text-ink-300 leading-tight">{label}</span>
                 </div>
                 {i < topology.length - 1 && (
-                  <div className="hidden lg:block w-8 h-px bg-gradient-to-r from-accent-cyan/60 to-accent-blue/60 shrink-0" />
+                  <div className="w-8 h-px bg-gradient-to-r from-accent-cyan/60 to-accent-blue/60 shrink-0" />
                 )}
               </div>
             ))}

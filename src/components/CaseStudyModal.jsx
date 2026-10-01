@@ -86,23 +86,23 @@ export default function CaseStudyModal({ project, onClose }) {
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-sm p-3 sm:p-6"
+      className="fixed inset-0 z-[100] flex items-start sm:items-center justify-center bg-black/70 backdrop-blur-sm p-0 sm:p-6"
       role="dialog"
       aria-modal="true"
       aria-label={`${project.title} case study`}
       onClick={onClose}
     >
       <div
-        className="bg-base-900 border border-white/10 w-full max-w-3xl rounded-xl sm:rounded-2xl max-h-[calc(100dvh-1.5rem)] sm:max-h-[88vh] overflow-y-auto"
+        className="bg-base-900 border border-white/10 w-full sm:max-w-3xl sm:rounded-2xl max-h-full sm:max-h-[88vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="sticky top-0 bg-base-900/95 backdrop-blur-md border-b border-white/10 flex items-start justify-between gap-4 px-6 sm:px-8 py-5 z-10">
-          <div className="min-w-0">
+          <div>
             <span className="inline-block text-xs text-accent-green bg-accent-green/10 border border-accent-green/30 rounded-full px-2.5 py-1 mb-2">
               {deploymentNote}
             </span>
-            <h2 className="text-xl font-bold text-ink-100 break-words">{project.title}</h2>
-            <p className="text-sm text-accent-cyan mt-0.5 break-words">{project.label}</p>
+            <h2 className="text-xl font-bold text-ink-100">{project.title}</h2>
+            <p className="text-sm text-accent-cyan mt-0.5">{project.label}</p>
           </div>
           <button
             onClick={onClose}
@@ -113,7 +113,7 @@ export default function CaseStudyModal({ project, onClose }) {
           </button>
         </div>
 
-        <div className="px-4 sm:px-8 py-6 sm:py-8">
+        <div className="px-6 sm:px-8 py-8">
           <Block title="Problem">
             <p className="text-ink-300 leading-relaxed">{caseStudy.problem}</p>
           </Block>

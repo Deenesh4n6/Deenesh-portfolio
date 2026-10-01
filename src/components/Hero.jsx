@@ -92,7 +92,7 @@ export default function Hero() {
             <a
               href={siteConfig.resumeUrl}
               download="Deenesh_A_Resume.pdf"
-              className="resume-btn inline-flex items-center justify-center gap-2 rounded-lg glass-card glow-border text-ink-100 font-semibold px-6 py-3 hover:bg-white/5 transition-colors"
+              className="inline-flex items-center justify-center gap-2 rounded-lg glass-card glow-border text-ink-100 font-semibold px-6 py-3 hover:bg-white/5 transition-colors"
             >
               <Download className="w-4 h-4" /> Download Resume
             </a>
