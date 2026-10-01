@@ -167,6 +167,24 @@ body {
   backdrop-filter: blur(10px);
 }
 
+.resume-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #3fd0e0 0%, #4c8fff 100%);
+  color: #05131d;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 0 0 0 1px rgba(63, 208, 224, 0.22), 0 10px 24px rgba(76, 143, 255, 0.18);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+.resume-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 0 1px rgba(63, 208, 224, 0.28), 0 14px 30px rgba(76, 143, 255, 0.24);
+  filter: brightness(1.04);
+}
+
 .glow-border {
   box-shadow: 0 0 0 1px rgba(63, 208, 224, 0.16), 0 0 28px rgba(63, 208, 224, 0.06);
 }

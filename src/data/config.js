@@ -7,7 +7,7 @@
 export const siteConfig = {
   name: 'Deenesh A.',
   role: 'Cybersecurity & Networking Enthusiast',
-  resumeUrl: '#', // TODO: replace with a real link to your resume (PDF)
+  resumeUrl: '/resume/DEENESH_A%20Resume.pdf',
 
   // Personal contact
   email: 'deenesh296@gmail.com',

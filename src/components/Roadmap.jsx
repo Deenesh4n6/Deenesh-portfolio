@@ -29,9 +29,9 @@ export default function Roadmap() {
 
         <div className="flex flex-col items-center">
           {steps.map((step, i) => (
-            <Reveal key={step} delay={i * 0.05} className="flex flex-col items-center">
+            <Reveal key={step} delay={i * 0.05} className="flex w-full max-w-sm flex-col items-center">
               <div
-                className={`glass-card rounded-xl px-5 py-3 text-center font-medium ${
+                className={`glass-card w-full rounded-xl px-5 py-3 text-center font-medium ${
                   i === currentStepIndex
                     ? 'border-accent-cyan/60 text-accent-cyan glow-border'
                     : 'text-ink-300'
