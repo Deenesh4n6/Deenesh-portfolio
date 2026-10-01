@@ -15,7 +15,6 @@ const stats = [
   { value: '4th Year', label: 'B.E. CSE' },
   { value: '7.86', label: 'CGPA' },
   { value: 'Cybersecurity', label: 'Focus' },
-  { value: 'Groot Grid', label: 'Networking Startup Builder' },
 ]
 
 export default function About() {
@@ -34,9 +33,7 @@ export default function About() {
             </p>
             <p>
               My technical interests include networking, Linux, cybersecurity, SOC operations,
-              penetration testing, digital forensics, network monitoring, and security tools. Alongside
-              my technical learning, I am also working toward building a networking services business
-              called Groot Grid.
+              penetration testing, digital forensics, network monitoring, and security tools.
             </p>
             <p>
               My long-term goal is to build a strong career in cybersecurity and networking while

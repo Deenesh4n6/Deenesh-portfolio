@@ -5,7 +5,6 @@ import Skills from './components/Skills.jsx'
 import NetworkProjects from './components/NetworkProjects.jsx'
 import OtherProjects from './components/OtherProjects.jsx'
 import Certifications from './components/Certifications.jsx'
-import GrootGrid from './components/GrootGrid.jsx'
 import Networking from './components/Networking.jsx'
 import Education from './components/Education.jsx'
 import CareerGoals from './components/CareerGoals.jsx'
@@ -31,7 +30,6 @@ export default function App() {
         <NetworkProjects />
         <OtherProjects />
         <Certifications />
-        <GrootGrid />
         <Networking />
         <Education />
         <CareerGoals />

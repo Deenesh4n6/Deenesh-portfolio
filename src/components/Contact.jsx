@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Mail, Linkedin, Github, Instagram, Send, CheckCircle2 } from 'lucide-react'
+import { Mail, Linkedin, Github, Send, CheckCircle2 } from 'lucide-react'
 import Reveal from './Reveal.jsx'
 import SectionHeading from './SectionHeading.jsx'
 import { siteConfig } from '../data/config.js'
@@ -8,12 +8,6 @@ const contactCards = [
   { icon: Mail, label: 'Email', value: siteConfig.email, href: `mailto:${siteConfig.email}` },
   { icon: Linkedin, label: 'LinkedIn', value: 'Connect on LinkedIn', href: siteConfig.linkedin },
   { icon: Github, label: 'GitHub', value: 'View my repositories', href: siteConfig.github },
-  {
-    icon: Instagram,
-    label: 'Groot Grid',
-    value: siteConfig.grootGrid.instagram,
-    href: siteConfig.grootGrid.instagramUrl,
-  },
 ]
 
 // ─────────────────────────────────────────────────────────────

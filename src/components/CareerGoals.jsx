@@ -21,7 +21,7 @@ const goals = [
   {
     icon: Rocket,
     title: 'Security / Network Entrepreneur',
-    focus: 'Building practical networking and security solutions through Groot Grid.',
+    focus: 'Building practical networking and security solutions.',
   },
 ]
 

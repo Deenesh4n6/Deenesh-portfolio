@@ -1,10 +1,9 @@
-import { Linkedin, Github, Instagram, Mail } from 'lucide-react'
+import { Linkedin, Github, Mail } from 'lucide-react'
 import { siteConfig } from '../data/config.js'
 
 const links = [
   { label: 'LinkedIn', icon: Linkedin, href: siteConfig.linkedin },
   { label: 'GitHub', icon: Github, href: siteConfig.github },
-  { label: 'Groot Grid', icon: Instagram, href: siteConfig.grootGrid.instagramUrl },
   { label: 'Email', icon: Mail, href: `mailto:${siteConfig.email}` },
 ]
 
