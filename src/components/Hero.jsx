@@ -109,9 +109,18 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="relative"
         >
-          <div className="glass-card glow-border rounded-2xl p-8">
-            <NetworkVisual />
-            <div className="flex items-center justify-center gap-3 mt-4">
+          <div className="glass-card glow-border relative min-h-[560px] overflow-hidden rounded-2xl p-6 sm:p-8">
+            <div className="absolute inset-0 flex items-center justify-center opacity-80" aria-hidden="true">
+              <NetworkVisual />
+            </div>
+            <div className="pointer-events-none absolute inset-x-0 bottom-20 top-4 flex items-end justify-center">
+              <img
+                src="/deenesh-photo.jpeg"
+                alt="Deenesh A."
+                className="h-full max-w-full object-contain object-bottom drop-shadow-[0_0_24px_rgba(63,208,224,0.16)]"
+              />
+            </div>
+            <div className="absolute inset-x-0 bottom-0 z-10 flex items-center justify-center gap-3 bg-gradient-to-t from-[#071321] via-[#071321]/95 to-transparent px-4 pb-6 pt-12">
               <div className="w-12 h-12 rounded-full bg-gradient-to-br from-accent-cyan to-accent-blue flex items-center justify-center font-bold text-base-900 text-lg shrink-0">
                 DA
               </div>
