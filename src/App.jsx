@@ -8,7 +8,6 @@ import Certifications from './components/Certifications.jsx'
 import Networking from './components/Networking.jsx'
 import Education from './components/Education.jsx'
 import CareerGoals from './components/CareerGoals.jsx'
-import Roadmap from './components/Roadmap.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 import BackToTop from './components/BackToTop.jsx'
@@ -33,7 +32,6 @@ export default function App() {
         <Networking />
         <Education />
         <CareerGoals />
-        <Roadmap />
         <Contact />
       </main>
       <Footer />
