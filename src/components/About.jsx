@@ -13,7 +13,6 @@ const exploring = [
 
 const stats = [
   { value: '4th Year', label: 'B.E. CSE' },
-  { value: '7.86', label: 'CGPA' },
   { value: 'Cybersecurity', label: 'Focus' },
 ]
 

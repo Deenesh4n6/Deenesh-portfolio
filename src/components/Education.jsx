@@ -23,9 +23,6 @@ export default function Education() {
               </p>
               <div className="flex flex-wrap gap-3 mt-5">
                 <span className="text-sm bg-white/5 border border-white/10 rounded-full px-3 py-1.5 text-ink-300">
-                  CGPA: 7.86
-                </span>
-                <span className="text-sm bg-white/5 border border-white/10 rounded-full px-3 py-1.5 text-ink-300">
                   Tamil Nadu, India
                 </span>
               </div>
